@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		D27FD3C31F4312E600550606 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FD3C21F4312E600550606 /* AppDelegate.swift */; };
-		D27FD3C51F4312E600550606 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FD3C41F4312E600550606 /* ViewController.swift */; };
+		D27FD3C51F4312E600550606 /* tableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FD3C41F4312E600550606 /* tableVC.swift */; };
 		D27FD3C81F4312E600550606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27FD3C61F4312E600550606 /* Main.storyboard */; };
 		D27FD3CA1F4312E600550606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27FD3C91F4312E600550606 /* Assets.xcassets */; };
 		D27FD3CD1F4312E600550606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27FD3CB1F4312E600550606 /* LaunchScreen.storyboard */; };
 		D27FD3D81F4312E600550606 /* Simpsons_Character_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FD3D71F4312E600550606 /* Simpsons_Character_BookTests.swift */; };
 		D27FD3E31F4312E600550606 /* Simpsons_Character_BookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FD3E21F4312E600550606 /* Simpsons_Character_BookUITests.swift */; };
+		D27FD3F11F4313AB00550606 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FD3F01F4313AB00550606 /* DetailsViewController.swift */; };
+		D27FD3F61F4334F900550606 /* bart.png in Resources */ = {isa = PBXBuildFile; fileRef = D27FD3F21F4334F900550606 /* bart.png */; };
+		D27FD3F71F4334F900550606 /* homer.png in Resources */ = {isa = PBXBuildFile; fileRef = D27FD3F31F4334F900550606 /* homer.png */; };
+		D27FD3F81F4334F900550606 /* lisa.png in Resources */ = {isa = PBXBuildFile; fileRef = D27FD3F41F4334F900550606 /* lisa.png */; };
+		D27FD3F91F4334F900550606 /* ned.png in Resources */ = {isa = PBXBuildFile; fileRef = D27FD3F51F4334F900550606 /* ned.png */; };
+		D27FD3FB1F4338BA00550606 /* Simpson.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FD3FA1F4338BA00550606 /* Simpson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		D27FD3BF1F4312E600550606 /* Simpsons Character Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simpsons Character Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27FD3C21F4312E600550606 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D27FD3C41F4312E600550606 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D27FD3C41F4312E600550606 /* tableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableVC.swift; sourceTree = "<group>"; };
 		D27FD3C71F4312E600550606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D27FD3C91F4312E600550606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D27FD3CC1F4312E600550606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		D27FD3DE1F4312E600550606 /* Simpsons Character BookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simpsons Character BookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D27FD3E21F4312E600550606 /* Simpsons_Character_BookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpsons_Character_BookUITests.swift; sourceTree = "<group>"; };
 		D27FD3E41F4312E600550606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27FD3F01F4313AB00550606 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		D27FD3F21F4334F900550606 /* bart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bart.png; sourceTree = "<group>"; };
+		D27FD3F31F4334F900550606 /* homer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homer.png; sourceTree = "<group>"; };
+		D27FD3F41F4334F900550606 /* lisa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lisa.png; sourceTree = "<group>"; };
+		D27FD3F51F4334F900550606 /* ned.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ned.png; sourceTree = "<group>"; };
+		D27FD3FA1F4338BA00550606 /* Simpson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simpson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +109,15 @@
 		D27FD3C11F4312E600550606 /* Simpsons Character Book */ = {
 			isa = PBXGroup;
 			children = (
+				D27FD3F21F4334F900550606 /* bart.png */,
+				D27FD3F31F4334F900550606 /* homer.png */,
+				D27FD3F41F4334F900550606 /* lisa.png */,
+				D27FD3F51F4334F900550606 /* ned.png */,
 				D27FD3C21F4312E600550606 /* AppDelegate.swift */,
-				D27FD3C41F4312E600550606 /* ViewController.swift */,
+				D27FD3C41F4312E600550606 /* tableVC.swift */,
+				D27FD3FA1F4338BA00550606 /* Simpson.swift */,
 				D27FD3C61F4312E600550606 /* Main.storyboard */,
+				D27FD3F01F4313AB00550606 /* DetailsViewController.swift */,
 				D27FD3C91F4312E600550606 /* Assets.xcassets */,
 				D27FD3CB1F4312E600550606 /* LaunchScreen.storyboard */,
 				D27FD3CE1F4312E600550606 /* Info.plist */,
@@ -235,9 +253,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D27FD3F61F4334F900550606 /* bart.png in Resources */,
+				D27FD3F71F4334F900550606 /* homer.png in Resources */,
+				D27FD3F81F4334F900550606 /* lisa.png in Resources */,
 				D27FD3CD1F4312E600550606 /* LaunchScreen.storyboard in Resources */,
 				D27FD3CA1F4312E600550606 /* Assets.xcassets in Resources */,
 				D27FD3C81F4312E600550606 /* Main.storyboard in Resources */,
+				D27FD3F91F4334F900550606 /* ned.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D27FD3C51F4312E600550606 /* ViewController.swift in Sources */,
+				D27FD3C51F4312E600550606 /* tableVC.swift in Sources */,
+				D27FD3FB1F4338BA00550606 /* Simpson.swift in Sources */,
 				D27FD3C31F4312E600550606 /* AppDelegate.swift in Sources */,
+				D27FD3F11F4313AB00550606 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +540,7 @@
 				D27FD3E91F4312E600550606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D27FD3EA1F4312E600550606 /* Build configuration list for PBXNativeTarget "Simpsons Character BookTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +549,7 @@
 				D27FD3EC1F4312E600550606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D27FD3ED1F4312E600550606 /* Build configuration list for PBXNativeTarget "Simpsons Character BookUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +558,7 @@
 				D27FD3EF1F4312E600550606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
