@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D27FD3C31F4312E600550606 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FD3C21F4312E600550606 /* AppDelegate.swift */; };
+		D27FD3C51F4312E600550606 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FD3C41F4312E600550606 /* ViewController.swift */; };
+		D27FD3C81F4312E600550606 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27FD3C61F4312E600550606 /* Main.storyboard */; };
+		D27FD3CA1F4312E600550606 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27FD3C91F4312E600550606 /* Assets.xcassets */; };
+		D27FD3CD1F4312E600550606 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27FD3CB1F4312E600550606 /* LaunchScreen.storyboard */; };
+		D27FD3D81F4312E600550606 /* Simpsons_Character_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FD3D71F4312E600550606 /* Simpsons_Character_BookTests.swift */; };
+		D27FD3E31F4312E600550606 /* Simpsons_Character_BookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FD3E21F4312E600550606 /* Simpsons_Character_BookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D27FD3D41F4312E600550606 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D27FD3B71F4312E600550606 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D27FD3BE1F4312E600550606;
+			remoteInfo = "Simpsons Character Book";
+		};
+		D27FD3DF1F4312E600550606 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D27FD3B71F4312E600550606 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D27FD3BE1F4312E600550606;
+			remoteInfo = "Simpsons Character Book";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D27FD3BF1F4312E600550606 /* Simpsons Character Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simpsons Character Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27FD3C21F4312E600550606 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D27FD3C41F4312E600550606 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D27FD3C71F4312E600550606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D27FD3C91F4312E600550606 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D27FD3CC1F4312E600550606 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D27FD3CE1F4312E600550606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27FD3D31F4312E600550606 /* Simpsons Character BookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simpsons Character BookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27FD3D71F4312E600550606 /* Simpsons_Character_BookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpsons_Character_BookTests.swift; sourceTree = "<group>"; };
+		D27FD3D91F4312E600550606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27FD3DE1F4312E600550606 /* Simpsons Character BookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simpsons Character BookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27FD3E21F4312E600550606 /* Simpsons_Character_BookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpsons_Character_BookUITests.swift; sourceTree = "<group>"; };
+		D27FD3E41F4312E600550606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D27FD3BC1F4312E600550606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27FD3D01F4312E600550606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27FD3DB1F4312E600550606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D27FD3B61F4312E600550606 = {
+			isa = PBXGroup;
+			children = (
+				D27FD3C11F4312E600550606 /* Simpsons Character Book */,
+				D27FD3D61F4312E600550606 /* Simpsons Character BookTests */,
+				D27FD3E11F4312E600550606 /* Simpsons Character BookUITests */,
+				D27FD3C01F4312E600550606 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D27FD3C01F4312E600550606 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D27FD3BF1F4312E600550606 /* Simpsons Character Book.app */,
+				D27FD3D31F4312E600550606 /* Simpsons Character BookTests.xctest */,
+				D27FD3DE1F4312E600550606 /* Simpsons Character BookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D27FD3C11F4312E600550606 /* Simpsons Character Book */ = {
+			isa = PBXGroup;
+			children = (
+				D27FD3C21F4312E600550606 /* AppDelegate.swift */,
+				D27FD3C41F4312E600550606 /* ViewController.swift */,
+				D27FD3C61F4312E600550606 /* Main.storyboard */,
+				D27FD3C91F4312E600550606 /* Assets.xcassets */,
+				D27FD3CB1F4312E600550606 /* LaunchScreen.storyboard */,
+				D27FD3CE1F4312E600550606 /* Info.plist */,
+			);
+			path = "Simpsons Character Book";
+			sourceTree = "<group>";
+		};
+		D27FD3D61F4312E600550606 /* Simpsons Character BookTests */ = {
+			isa = PBXGroup;
+			children = (
+				D27FD3D71F4312E600550606 /* Simpsons_Character_BookTests.swift */,
+				D27FD3D91F4312E600550606 /* Info.plist */,
+			);
+			path = "Simpsons Character BookTests";
+			sourceTree = "<group>";
+		};
+		D27FD3E11F4312E600550606 /* Simpsons Character BookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D27FD3E21F4312E600550606 /* Simpsons_Character_BookUITests.swift */,
+				D27FD3E41F4312E600550606 /* Info.plist */,
+			);
+			path = "Simpsons Character BookUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D27FD3BE1F4312E600550606 /* Simpsons Character Book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27FD3E71F4312E600550606 /* Build configuration list for PBXNativeTarget "Simpsons Character Book" */;
+			buildPhases = (
+				D27FD3BB1F4312E600550606 /* Sources */,
+				D27FD3BC1F4312E600550606 /* Frameworks */,
+				D27FD3BD1F4312E600550606 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simpsons Character Book";
+			productName = "Simpsons Character Book";
+			productReference = D27FD3BF1F4312E600550606 /* Simpsons Character Book.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D27FD3D21F4312E600550606 /* Simpsons Character BookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27FD3EA1F4312E600550606 /* Build configuration list for PBXNativeTarget "Simpsons Character BookTests" */;
+			buildPhases = (
+				D27FD3CF1F4312E600550606 /* Sources */,
+				D27FD3D01F4312E600550606 /* Frameworks */,
+				D27FD3D11F4312E600550606 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D27FD3D51F4312E600550606 /* PBXTargetDependency */,
+			);
+			name = "Simpsons Character BookTests";
+			productName = "Simpsons Character BookTests";
+			productReference = D27FD3D31F4312E600550606 /* Simpsons Character BookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D27FD3DD1F4312E600550606 /* Simpsons Character BookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27FD3ED1F4312E600550606 /* Build configuration list for PBXNativeTarget "Simpsons Character BookUITests" */;
+			buildPhases = (
+				D27FD3DA1F4312E600550606 /* Sources */,
+				D27FD3DB1F4312E600550606 /* Frameworks */,
+				D27FD3DC1F4312E600550606 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D27FD3E01F4312E600550606 /* PBXTargetDependency */,
+			);
+			name = "Simpsons Character BookUITests";
+			productName = "Simpsons Character BookUITests";
+			productReference = D27FD3DE1F4312E600550606 /* Simpsons Character BookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D27FD3B71F4312E600550606 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Kornet Project";
+				TargetAttributes = {
+					D27FD3BE1F4312E600550606 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZNSBEU9P8A;
+						ProvisioningStyle = Automatic;
+					};
+					D27FD3D21F4312E600550606 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZNSBEU9P8A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D27FD3BE1F4312E600550606;
+					};
+					D27FD3DD1F4312E600550606 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZNSBEU9P8A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D27FD3BE1F4312E600550606;
+					};
+				};
+			};
+			buildConfigurationList = D27FD3BA1F4312E600550606 /* Build configuration list for PBXProject "Simpsons Character Book" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D27FD3B61F4312E600550606;
+			productRefGroup = D27FD3C01F4312E600550606 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D27FD3BE1F4312E600550606 /* Simpsons Character Book */,
+				D27FD3D21F4312E600550606 /* Simpsons Character BookTests */,
+				D27FD3DD1F4312E600550606 /* Simpsons Character BookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D27FD3BD1F4312E600550606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27FD3CD1F4312E600550606 /* LaunchScreen.storyboard in Resources */,
+				D27FD3CA1F4312E600550606 /* Assets.xcassets in Resources */,
+				D27FD3C81F4312E600550606 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27FD3D11F4312E600550606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27FD3DC1F4312E600550606 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D27FD3BB1F4312E600550606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27FD3C51F4312E600550606 /* ViewController.swift in Sources */,
+				D27FD3C31F4312E600550606 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27FD3CF1F4312E600550606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27FD3D81F4312E600550606 /* Simpsons_Character_BookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D27FD3DA1F4312E600550606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27FD3E31F4312E600550606 /* Simpsons_Character_BookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D27FD3D51F4312E600550606 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D27FD3BE1F4312E600550606 /* Simpsons Character Book */;
+			targetProxy = D27FD3D41F4312E600550606 /* PBXContainerItemProxy */;
+		};
+		D27FD3E01F4312E600550606 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D27FD3BE1F4312E600550606 /* Simpsons Character Book */;
+			targetProxy = D27FD3DF1F4312E600550606 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D27FD3C61F4312E600550606 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D27FD3C71F4312E600550606 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D27FD3CB1F4312E600550606 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D27FD3CC1F4312E600550606 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D27FD3E51F4312E600550606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D27FD3E61F4312E600550606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D27FD3E81F4312E600550606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZNSBEU9P8A;
+				INFOPLIST_FILE = "Simpsons Character Book/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kornet.Simpsons-Character-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D27FD3E91F4312E600550606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZNSBEU9P8A;
+				INFOPLIST_FILE = "Simpsons Character Book/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kornet.Simpsons-Character-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D27FD3EB1F4312E600550606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZNSBEU9P8A;
+				INFOPLIST_FILE = "Simpsons Character BookTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kornet.Simpsons-Character-BookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simpsons Character Book.app/Simpsons Character Book";
+			};
+			name = Debug;
+		};
+		D27FD3EC1F4312E600550606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZNSBEU9P8A;
+				INFOPLIST_FILE = "Simpsons Character BookTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kornet.Simpsons-Character-BookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simpsons Character Book.app/Simpsons Character Book";
+			};
+			name = Release;
+		};
+		D27FD3EE1F4312E600550606 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZNSBEU9P8A;
+				INFOPLIST_FILE = "Simpsons Character BookUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kornet.Simpsons-Character-BookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Simpsons Character Book";
+			};
+			name = Debug;
+		};
+		D27FD3EF1F4312E600550606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ZNSBEU9P8A;
+				INFOPLIST_FILE = "Simpsons Character BookUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kornet.Simpsons-Character-BookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Simpsons Character Book";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D27FD3BA1F4312E600550606 /* Build configuration list for PBXProject "Simpsons Character Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27FD3E51F4312E600550606 /* Debug */,
+				D27FD3E61F4312E600550606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27FD3E71F4312E600550606 /* Build configuration list for PBXNativeTarget "Simpsons Character Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27FD3E81F4312E600550606 /* Debug */,
+				D27FD3E91F4312E600550606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D27FD3EA1F4312E600550606 /* Build configuration list for PBXNativeTarget "Simpsons Character BookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27FD3EB1F4312E600550606 /* Debug */,
+				D27FD3EC1F4312E600550606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D27FD3ED1F4312E600550606 /* Build configuration list for PBXNativeTarget "Simpsons Character BookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27FD3EE1F4312E600550606 /* Debug */,
+				D27FD3EF1F4312E600550606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D27FD3B71F4312E600550606 /* Project object */;
+}
